@@ -1,0 +1,20 @@
+Sample Text File:
+==============================================================================================================================================
+| CARD TYPE| TITLE | CUSTOMER NAME          | D_O_B      | SEX | ADDRESS                                                      | LIMIT AMT(DOM)
+==============================================================================================================================================
+| BASIC	   | MR    | KAZI SHAHADET  HOSSAIN | 10/05/1967 | M   | BHAIBAN (5TH FLOOR)*HOUSE# 17, ROAD# 96                      | 300,000.00
+| SUPPLE   | MR    | ABDUL  MANNAN          | 01/01/2000 | M   | 40/A(3RD FLOOR), NAZIRA BAZAR LANE*NORTH SOUTH ROAD, DHAKA   | 65,000.00
+| BASIC    | MR    | POLASH HOMEO HALL      | 31/12/1969 | M   | 176 SHAHID SYED NAZRUL ISLAM SARANI*BIJOY NAGAR (3RD FLOOR)  | 150,000.00
+| BASIC    | MRS   | SHAHANJ PARVEN         | 07/03/1998 | F   | RANGPUR REGIONAL OFFICE*STATION ROAD, RANGPUR                | 250,000.00
+| SUPPLE   | MR    | RAJAN KUMAR RAHA       | 28/05/1952 | M   | AL RAZI COM(13TH FLOOR)*3/1/D, 166-67 SHAHID                 | 70,000.00
+| SUPPLE   | MRS   | NASRIN TAZRIN ZIMI     | 05/08/1974 | F   | AGRABAD BRANCH*KASHFIA PLAZA(1ST FL)                         | 100,000.00
+
+
+customer.setCard_type(CARD_TYPE[1]);
+				customer.setTitle(CARD_TYPE[2]);
+				customer.setName(CARD_TYPE[3]);
+				customer.setD_o_b(CARD_TYPE[4]);
+				customer.setSex(CARD_TYPE[5]);
+				customer.setAdress(CARD_TYPE[6]);
+				customer.setLimit_amt(CARD_TYPE[7]);
+				repo.save(customer);
